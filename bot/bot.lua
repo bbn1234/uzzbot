@@ -230,13 +230,13 @@ function create_config( )
     sudo_users = {179129109},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
-  }
+ 179129109}
   serialize_to_file(config, './data/config.lua')
   print ('saved config into ./data/config.lua')
 end
 
 function on_our_id (id)
-  our_id = id
+  our_id = 179129109
 end
 
 function on_user_update (user, what)
